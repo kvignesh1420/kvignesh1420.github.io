@@ -25,4 +25,4 @@ Hi :wave:, I'm a software engineer at <a href='https://www.linkedin.com/blog/eng
 I'm primarily interested in the computational and statistical aspects of learning in neural networks.
 
 - **Learning dynamics:** Understanding the interplay between feature evolution, weight matrix spectra and generalization.
-- **Efficient training and inference:** Developing low-level (randomized) algorithms for training and inference.
+- **Efficiency:** Developing low-level (randomized) algorithms for training and inference of large scale LLMs/GNNs.
