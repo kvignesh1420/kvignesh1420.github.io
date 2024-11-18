@@ -21,6 +21,8 @@ social: true # includes social icons at the bottom of the page
 
 Hi :wave:, I'm a software engineer at <a href='https://www.linkedin.com/blog/engineering/artificial-intelligence'>LinkedIn Core AI</a> working on foundation models for recommendation. I completed my master's in computer science at [NYU Courant](https://cs.nyu.edu/home/index.html), advised by Prof. [Joan Bruna](https://cims.nyu.edu/~bruna/) and Prof. [Jonathan Niles Weed](https://www.jonathannilesweed.com/). I obtained my bachelors degree in Electronics and Communication Engineering from [IIT Guwahati](https://www.iitg.ac.in/).
 
-**Research:** I'm interested in understanding the mathematical foundations of deep learning. My work primarily focuses on:
-- The dynamics of feature learning in neural networks
-- Efficient techniques for large scale training and inference
+#### Research
+I'm primarily interested in the computational and statistical aspects of learning in neural networks.
+
+- **Learning dynamics:** Understanding the interplay between feature evolution, weight matrix spectra and generalization.
+- **Efficient training and inference:** Developing low-level (randomized) algorithms for training and inference.
