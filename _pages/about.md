@@ -19,10 +19,26 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi :wave:, I'm a software engineer at <a href='https://www.linkedin.com/blog/engineering/artificial-intelligence'>LinkedIn Core AI</a> working on foundation models for recommendation. I completed my master's in computer science at [NYU Courant](https://cs.nyu.edu/home/index.html), advised by Prof. [Joan Bruna](https://cims.nyu.edu/~bruna/) and Prof. [Jonathan Niles Weed](https://www.jonathannilesweed.com/). I obtained my bachelors degree in Electronics and Communication Engineering from [IIT Guwahati](https://www.iitg.ac.in/).
+Hi :wave:, I'm a Senior Software Engineer, ML in the Foundation Models and Data team at <a href='https://www.linkedin.com/blog/engineering/artificial-intelligence'>LinkedIn AI</a>. My current research focuses on post-training techniques for <a href='https://arxiv.org/pdf/2501.16450v1'>360Brew</a>, which is LinkedIn's foundation model for recommendation.
 
-#### Research
-I'm primarily interested in the computational and statistical aspects of learning in neural networks.
+Previously, I worked with [Prof. Joan Bruna](https://cims.nyu.edu/~bruna/) (NYU Courant), [Prof. Yaoqing Yang](https://sites.google.com/site/yangyaoqingcmu/) (Dartmouth) and [Prof. Rahul Mazumder](https://www.mit.edu/~rahulmaz/) (MIT) on topics related to the learning dynamics of neural networks. I also spent time at IBM as a TensorFlow contributor and TensorFlow-IO maintainer. I did my MSc in Computer Science at NYU Courant, and B.Tech in Electronics and Communication Engineering from [IIT Guwahati](https://www.iitg.ac.in/).
 
-- **Learning dynamics:** Understanding the interplay between feature evolution, weight matrix spectra and generalization.
-- **Efficiency:** Developing low-level (randomized) algorithms for training and inference of large scale LLMs/GNNs.
+## Research
+I'm primarily interested in understanding the computational aspects of learning in neural networks, and using these insights to develop novel modeling techniques.
+
+- **Foundation Models:** Chain-of-Thought reasoning, In-Context Learning and Multi-Task Learning in Transformer based LLMs.
+- **Learning Dynamics:** Understanding the interplay between feature evolution, weight matrix spectra and generalization in shallow and deep neural networks.
+- **Efficient Training/Inference:** Developing low-level (randomized) algorithms for training and inference of large scale LLMs/GNNs.
+<br/><br/>
+
+## Whats New
+
+- **[2025.02]** :fire: Our [tech-report](https://arxiv.org/abs/2502.14305) on training and deploying production-grade LLMs at LinkedIn is available on arxiv!
+- **[2025.01]** :rocket: The 360Brew foundation model [tech-report](https://arxiv.org/pdf/2501.16450v1) is available on arxiv!
+- **[2024.10]** :robot: Our [tech-report](https://arxiv.org/abs/2502.14305) on [Liger-Kernels](https://github.com/linkedin/Liger-Kernel) is now  available on arxiv. ([GPU Mode](https://www.youtube.com/watch?v=gWble4FreV4)/[Lightning AI](https://www.youtube.com/watch?v=3H_aw6o-d9c)/[AMD+Embedded LLM](https://embeddedllm.com/blog/cuda-to-rocm-portability-case-study-liger-kernel)/[Blog](https://www.linkedin.com/blog/engineering/open-source/liger-kernel-open-source-ecosystem-for-efficient-llm-training))
+<br/><br/>
+
+## Academic Service
+- **Conference Reviewer:** NeurIPS 2024, ICML 2025
+- **Journal Reviewer:** : IEEE Transactions on Cybernetics, IEEE Access, IEEE Transactions on Industrial Informatics, TMLR
+<br/><br/>
