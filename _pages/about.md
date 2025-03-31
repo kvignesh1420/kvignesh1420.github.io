@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 
 Hi :wave:, I'm a Senior Software Engineer, ML in the Foundation Models and Data team at <a href='https://www.linkedin.com/blog/engineering/artificial-intelligence'>LinkedIn AI</a>. My current research focuses on post-training techniques for <a href='https://arxiv.org/pdf/2501.16450v1'>360Brew</a>, which is LinkedIn's foundation model for recommendation.
 
-Previously, I worked with [Prof. Joan Bruna](https://cims.nyu.edu/~bruna/) (NYU Courant), [Prof. Yaoqing Yang](https://sites.google.com/site/yangyaoqingcmu/) (Dartmouth) and [Prof. Rahul Mazumder](https://www.mit.edu/~rahulmaz/) (MIT) on topics related to the learning dynamics of neural networks. I also spent time at IBM as a TensorFlow contributor and TensorFlow-IO maintainer. I did my MSc in Computer Science at NYU Courant, and B.Tech in Electronics and Communication Engineering from [IIT Guwahati](https://www.iitg.ac.in/).
+Previously, I worked with [Prof. Joan Bruna](https://cims.nyu.edu/~bruna/) (NYU Courant), [Prof. Yaoqing Yang](https://sites.google.com/site/yangyaoqingcmu/) (Dartmouth) and [Prof. Rahul Mazumder](https://www.mit.edu/~rahulmaz/) (MIT) on topics related to the learning dynamics of neural networks. I also spent time at IBM as a TensorFlow contributor and TensorFlow-IO maintainer. I did my MSc in Computer Science at NYU Courant, and B.Tech in Electronics and Communication Engineering from IIT Guwahati.
 
 ## Research
 I'm primarily interested in understanding the computational aspects of learning in neural networks, and using these insights to develop novel modeling techniques.
