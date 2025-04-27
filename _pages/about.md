@@ -33,6 +33,7 @@ I'm primarily interested in understanding the computational aspects of learning 
 
 ## Whats New
 
+- **[2025.04]** :thinking: ["Can Kernel Methods Explain How the Data Affects Neural Collapse?"](https://openreview.net/forum?id=MbF1gYfIlY) has been accepted to TMLR!
 - **[2025.02]** :fire: Our [tech-report](https://arxiv.org/abs/2502.14305) on training and deploying production-grade LLMs at LinkedIn is available on arxiv!
 - **[2025.01]** :rocket: The 360Brew foundation model [tech-report](https://arxiv.org/pdf/2501.16450v1) is available on arxiv!
 - **[2024.10]** :robot: Our [tech-report](https://arxiv.org/abs/2502.14305) on [Liger-Kernels](https://github.com/linkedin/Liger-Kernel) is now  available on arxiv. ([GPU Mode](https://www.youtube.com/watch?v=gWble4FreV4)/[Lightning AI](https://www.youtube.com/watch?v=3H_aw6o-d9c)/[AMD+Embedded LLM](https://embeddedllm.com/blog/cuda-to-rocm-portability-case-study-liger-kernel)/[Blog](https://www.linkedin.com/blog/engineering/open-source/liger-kernel-open-source-ecosystem-for-efficient-llm-training))
