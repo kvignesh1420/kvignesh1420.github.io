@@ -19,24 +19,23 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi :wave:, I'm a Senior Software Engineer, ML in the Foundation Models and Data team at <a href='https://www.linkedin.com/blog/engineering/artificial-intelligence'>LinkedIn AI</a>. My current research focuses on post-training techniques for <a href='https://arxiv.org/pdf/2501.16450v1'>360Brew</a>, which is LinkedIn's foundation model for recommendation.
-
-Previously, I worked with [Prof. Joan Bruna](https://cims.nyu.edu/~bruna/) (NYU Courant), [Prof. Yaoqing Yang](https://sites.google.com/site/yangyaoqingcmu/) (Dartmouth) and [Prof. Rahul Mazumder](https://www.mit.edu/~rahulmaz/) (MIT) on topics related to the learning dynamics of neural networks. I also spent time at IBM as a TensorFlow contributor and TensorFlow-IO maintainer. I did my MSc in Computer Science at NYU Courant, and B.Tech in Electronics and Communication Engineering from IIT Guwahati.
+Hi :wave:, I'm a Senior ML Engineer in the Foundation Models and Data team at <a href='https://www.linkedin.com/blog/engineering/artificial-intelligence'>LinkedIn AI</a>. My work centers on post-training techniques for enhancing multi-task learning in large language models. I earned my MSc in Computer Science at NYU Courant, where I worked with [Prof. Joan Bruna](https://cims.nyu.edu/~bruna/) on the Neural Collapse phenomenon. I have also contributed to TensorFlow and served as a maintainer for TensorFlow-IO during my time at IBM. I hold a B.Tech in Electronics and Communication Engineering from IIT Guwahati.
 
 ## Research
 I'm primarily interested in understanding the computational aspects of learning in neural networks, and using these insights to develop novel modeling techniques.
 
 - **Foundation Models:** Chain-of-Thought reasoning, In-Context Learning and Multi-Task Learning in Transformer based LLMs.
-- **Learning Dynamics:** Understanding the interplay between feature evolution, weight matrix spectra and generalization in shallow and deep neural networks.
+- **Learning Dynamics:** Understanding feature evolution, weight matrix spectra and generalization in neural networks.
 - **Efficient Training/Inference:** Developing low-level (randomized) algorithms for training and inference of large scale LLMs/GNNs.
 <br/><br/>
 
 ## Whats New
 
+- **[2025.06]** :tiger: Our ["Liger Kernel"](https://arxiv.org/abs/2410.10989) paper has been accepted to CODE ML Workshop, ICML 2025!
 - **[2025.05]** :tada: The ["CoT-ICL Lab"](https://arxiv.org/abs/2502.15132) paper has been accepted to ACL Main 2025!
 - **[2025.04]** :thinking: ["Can Kernel Methods Explain How the Data Affects Neural Collapse?"](https://openreview.net/forum?id=MbF1gYfIlY) has been accepted to TMLR!
 - **[2025.02]** :fire: Our [tech-report](https://arxiv.org/abs/2502.14305) on training and deploying production-grade LLMs at LinkedIn is available on arxiv!
-- **[2025.01]** :rocket: The 360Brew foundation model [tech-report](https://arxiv.org/pdf/2501.16450v1) is available on arxiv!
+- **[2025.01]** :rocket: The [360Brew foundation model](https://arxiv.org/pdf/2501.16450v1) tech-report is available on arxiv!
 - **[2024.10]** :robot: Our [tech-report](https://arxiv.org/abs/2502.14305) on [Liger-Kernels](https://github.com/linkedin/Liger-Kernel) is now  available on arxiv. ([GPU Mode](https://www.youtube.com/watch?v=gWble4FreV4)/[Lightning AI](https://www.youtube.com/watch?v=3H_aw6o-d9c)/[AMD+Embedded LLM](https://embeddedllm.com/blog/cuda-to-rocm-portability-case-study-liger-kernel)/[Blog](https://www.linkedin.com/blog/engineering/open-source/liger-kernel-open-source-ecosystem-for-efficient-llm-training))
 <br/><br/>
 
