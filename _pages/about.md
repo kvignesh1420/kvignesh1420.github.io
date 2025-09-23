@@ -19,14 +19,14 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi :wave:, I'm a Senior ML Engineer in the Foundation Models and Data team at <a href='https://www.linkedin.com/blog/engineering/artificial-intelligence'>LinkedIn AI</a>. My work centers on post-training techniques for enhancing multi-task learning in large language models. I earned my MSc in Computer Science at NYU Courant, where I worked with [Prof. Joan Bruna](https://cims.nyu.edu/~bruna/) on the Neural Collapse phenomenon. I have also contributed to TensorFlow and served as a maintainer for TensorFlow-IO during my time at IBM. I hold a B.Tech in Electronics and Communication Engineering from IIT Guwahati.
-
-## Research
-I'm primarily interested in understanding the computational aspects of learning in neural networks, and using these insights to develop novel modeling techniques.
+Hi :wave:, I'm a first year CS Ph.D. student at Stanford University. I'm primarily interested in understanding the computational aspects of learning in neural networks, and using these insights to develop novel modeling techniques.
 
 - **Foundation Models:** Chain-of-Thought reasoning, In-Context Learning and Multi-Task Learning in Transformer based LLMs.
 - **Learning Dynamics:** Understanding feature evolution, weight matrix spectra and generalization in neural networks.
 - **Efficient Training/Inference:** Developing low-level (randomized) algorithms for training and inference of large scale LLMs/GNNs.
+
+Previously, I was a senior ML engineer at <a href='https://www.linkedin.com/blog/engineering/artificial-intelligence'>LinkedIn AI</a> building recommendation foundation models. I earned my MSc in Computer Science at NYU Courant, where I worked with [Prof. Joan Bruna](https://cims.nyu.edu/~bruna/) on the Neural Collapse phenomenon. I have also contributed to TensorFlow and served as a maintainer for TensorFlow-IO during my time at IBM. I hold a B.Tech in Electronics and Communication Engineering from IIT Guwahati.
+
 <br/><br/>
 
 ## Whats New
