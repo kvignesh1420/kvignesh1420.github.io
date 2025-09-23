@@ -27,10 +27,10 @@ Hi :wave:, I'm a first year CS Ph.D. student at Stanford University. I'm primari
 
 Previously, I was a senior ML engineer at <a href='https://www.linkedin.com/blog/engineering/artificial-intelligence'>LinkedIn AI</a> building recommendation foundation models. I earned my MSc in Computer Science at NYU Courant, where I worked with [Prof. Joan Bruna](https://cims.nyu.edu/~bruna/) on the Neural Collapse phenomenon. I have also contributed to TensorFlow and served as a maintainer for TensorFlow-IO during my time at IBM. I hold a B.Tech in Electronics and Communication Engineering from IIT Guwahati.
 
-<br/><br/>
-
 ## Whats New
 
+- **[2025.09]** Started Ph.D. at Stanford!
+- **[2025.08]** :round_pushpin: ["From Spikes to Heavy Tails: Unveiling the Spectral Evolution of Neural Networks"](https://openreview.net/forum?id=DJHB8eBUnt) has been accepted to TMLR!
 - **[2025.06]** :tiger: Our ["Liger Kernel"](https://arxiv.org/abs/2410.10989) paper has been accepted to CODE ML Workshop, ICML 2025!
 - **[2025.05]** :tada: The ["CoT-ICL Lab"](https://arxiv.org/abs/2502.15132) paper has been accepted to ACL Main 2025!
 - **[2025.04]** :thinking: ["Can Kernel Methods Explain How the Data Affects Neural Collapse?"](https://openreview.net/forum?id=MbF1gYfIlY) has been accepted to TMLR!
