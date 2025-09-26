@@ -31,7 +31,7 @@ Previously, I was a senior ML engineer at <a href='https://www.linkedin.com/blog
 ## Whats New
 
 - **[2025.09]** :school_satchel: Started Ph.D. at Stanford!
-- **[2025.09]** :trophy: Our work on training and deploying production-grade LLMs at LinkedIn is accepted for an Oral presentation at EMNLP (Industry Track).
+- **[2025.09]** :trophy: Our work on distillation and compression of production-grade LLMs at LinkedIn is accepted for an Oral presentation at EMNLP (Industry Track).
 - **[2025.08]** :round_pushpin: ["From Spikes to Heavy Tails: Unveiling the Spectral Evolution of Neural Networks"](https://openreview.net/forum?id=DJHB8eBUnt) has been accepted to TMLR!
 - **[2025.06]** :tiger: Our ["Liger Kernel"](https://arxiv.org/abs/2410.10989) paper has been accepted to CODE ML Workshop, ICML 2025!
 - **[2025.05]** :tada: The ["CoT-ICL Lab"](https://arxiv.org/abs/2502.15132) paper has been accepted to ACL Main 2025!
