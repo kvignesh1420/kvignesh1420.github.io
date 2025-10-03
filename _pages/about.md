@@ -19,9 +19,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi :wave:, I'm a first year CS Ph.D. student at Stanford University. I'm primarily interested in understanding the computational aspects of learning in neural networks, and using these insights to develop novel modeling techniques.
+Hi :wave:, I'm a first year CS PhD student at <a href='https://ai.stanford.edu/'>Stanford University</a>. I'm primarily interested in understanding the computational aspects of learning in neural networks, and using these insights to develop novel modeling techniques.
 
-Previously, I was a senior ML engineer at <a href='https://www.linkedin.com/blog/engineering/artificial-intelligence'>LinkedIn AI</a> building recommendation foundation models. I earned my MSc in Computer Science at NYU Courant, where I worked with [Prof. Joan Bruna](https://cims.nyu.edu/~bruna/) on the Neural Collapse phenomenon. I have also contributed to TensorFlow and served as a maintainer for TensorFlow-IO during my time at IBM. I hold a B.Tech in Electronics and Communication Engineering from IIT Guwahati.
+Previously, I was a senior ML engineer at LinkedIn AI building recommendation foundation models. I earned my MSc in Computer Science at NYU Courant, and had an amazing time being a part of the Math and Data Group. I have also contributed to TensorFlow and served as a maintainer for TensorFlow-IO during my time at IBM. I hold a B.Tech in Electronics and Communication Engineering from IIT Guwahati.
 <br/><br/>
 
 ## Whats New
@@ -37,6 +37,6 @@ Previously, I was a senior ML engineer at <a href='https://www.linkedin.com/blog
 <br/><br/>
 
 ## Academic Service
-- **Conference Reviewer:** NeurIPS 2024, ICML 2025
+- **Conference Reviewer:** NeurIPS 2024 (Top-Reviewer), ICML 2025, ICLR 2026
 - **Journal Reviewer:** IEEE Transactions on Cybernetics, IEEE Access, IEEE Transactions on Industrial Informatics, TMLR
 <br/><br/>
