@@ -1123,3 +1123,176 @@ ninja-keys {
 ninja-keys::part(ninja-input-wrapper) {
   background: var(--global-bg-color);
 }
+
+// -----------------------------------------------------------------------------
+// Barron-style overrides (jonbarron.info aesthetics)
+// -----------------------------------------------------------------------------
+
+$barron-font: 'Lato', Verdana, Helvetica, sans-serif;
+$barron-link: #1772d0;
+$barron-link-hover: #f09228;
+$resume-beige: #f5efe2;
+
+// Soft cream background (warmer than the resume's #e8e6e1, which reads gray at full-page scale).
+:root {
+  --global-bg-color: #{$resume-beige};
+}
+
+html:not([data-theme="dark"]) body,
+html:not([data-theme="dark"]) .navbar,
+html:not([data-theme="dark"]) footer.fixed-bottom {
+  background-color: $resume-beige;
+}
+
+body,
+p,
+a,
+td,
+th,
+tr,
+li,
+strong,
+em,
+div,
+span {
+  font-family: $barron-font;
+}
+
+body,
+p,
+li,
+td,
+th,
+tr {
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $barron-font;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 22px;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.post-title {
+  font-size: 32px;
+  font-weight: normal;
+}
+
+a,
+table.table a {
+  color: $barron-link;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $barron-link-hover;
+    text-decoration: none;
+  }
+}
+
+// Profile photo: 160px circular like Barron
+.profile {
+  figure,
+  picture,
+  img {
+    max-width: 160px !important;
+  }
+
+  img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+  }
+}
+
+// Publications list — Barron style
+.publications {
+  // Tighter spacing between papers
+  .row {
+    margin-bottom: 1.25rem;
+  }
+
+  // Hide the venue abbreviation badge (keep the thumbnail)
+  .abbr abbr.badge {
+    display: none;
+  }
+
+  // Paper title — same body size as authors; distinguished by weight + spacing.
+  .title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 0.25rem;
+  }
+
+  // Author line — slightly smaller than the title to create hierarchy.
+  .author {
+    font-size: 13px;
+    line-height: 1.45;
+    color: #444;
+
+    em {
+      font-style: normal;
+      font-weight: 700;
+      color: #000;
+    }
+  }
+
+  // Venue / year line — small italic, slightly muted.
+  .periodical {
+    font-size: 13px;
+    color: #555;
+    margin-top: 0.15rem;
+  }
+
+  // Slim outlined link buttons (Barron palette, modernized)
+  .links a.btn {
+    background: transparent !important;
+    border: 1px solid $barron-link !important;
+    border-radius: 4px;
+    padding: 1px 8px !important;
+    margin: 0 0.3rem 0.3rem 0;
+    color: $barron-link;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    text-transform: none;
+    box-shadow: none;
+    display: inline-block;
+    transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+
+    &::before { content: ""; }
+    &::after { content: ""; }
+
+    &:hover,
+    &:focus {
+      background: $barron-link !important;
+      border-color: $barron-link !important;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+
+  // Award chip (Oral, Best Paper, etc.) — orange to stand out from link chips.
+  .links a.award.btn {
+    background: $barron-link-hover !important;
+    border-color: $barron-link-hover !important;
+    color: #fff;
+    font-weight: 700;
+    pointer-events: none;
+    cursor: default;
+  }
+}
