@@ -15,9 +15,11 @@ selected_papers: true
 social: false
 ---
 
-I am a first-year CS PhD student at <a href="https://ai.stanford.edu/">Stanford University</a>, advised by <a href="https://cs.stanford.edu/people/jure/">Prof. Jure Leskovec</a>. I am interested in the computational aspects of learning in neural networks. My research is supported by the Stanford School of Engineering Fellowship.
+I am a second-year CS PhD student at <a href="https://ai.stanford.edu/">Stanford University</a>, advised by <a href="https://cs.stanford.edu/people/jure/">Prof.&nbsp;Jure&nbsp;Leskovec</a>. I am interested in building foundation models over structured data (tables, databases, and graphs) and unstructured data (text). I see these models as the building blocks of continual learning systems that acquire new knowledge on the fly. My research is supported by the Stanford School of Engineering Fellowship.
 
-Previously I was a senior ML engineer at LinkedIn AI, building foundation models for recommendation. I earned my MSc in Computer Science at NYU Courant, where I was advised by <a href="https://cims.nyu.edu/~bruna/">Prof. Joan Bruna</a> in the Math and Data Group. I have also contributed to TensorFlow and maintained TensorFlow-IO at IBM, and hold a B.Tech in Electronics and Communication Engineering from IIT Guwahati.
+In summer 2026, I interned at NVIDIA, where I worked on <a href="https://huggingface.co/nvidia/Kumo-Tabular">Kumo Tabular</a>, a tabular foundation model. Previously I was a senior ML engineer at LinkedIn AI, building <span class="text-nowrap">LLM-based</span> foundation models for recommendation. I have also contributed to TensorFlow and maintained TensorFlow-IO at IBM.
+
+I earned my MSc in Computer Science at NYU Courant, where I was advised by <a href="https://cims.nyu.edu/~bruna/">Prof.&nbsp;Joan&nbsp;Bruna</a> in the Math and Data Group. I also hold a B.Tech in Electronics and Communication Engineering from IIT Guwahati.
 
 <p>
   <a href="mailto:vigneshk@cs.stanford.edu">Email</a> /
