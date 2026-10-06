@@ -1217,6 +1217,19 @@ table.table a {
   }
 }
 
+// Keep the bio in a column beside the photo instead of wrapping under it
+// (only once the photo floats at 30% width; on phones it stacks above the text)
+@media (min-width: 576px) {
+  .profile + .clearfix {
+    display: flow-root;
+  }
+}
+
+// Avoid leaving a single word on the last line of a bio paragraph
+.profile + .clearfix p {
+  text-wrap: pretty;
+}
+
 // Publications list — Barron style
 .publications {
   // Tighter spacing between papers

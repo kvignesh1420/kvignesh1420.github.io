@@ -56,23 +56,17 @@
         {%- endif -%}
 
         {%- if forloop.length > 1 -%}
-          {% if forloop.first == false %},&nbsp;{% endif %}
+          {% if forloop.first == false %}, {% endif %}
           {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
         {% endif %}
+        {%- comment -%} Break lines between authors, never inside a name. {%- endcomment -%}
         {%- if author_is_self -%}
-          <em>
-            {{- author.first }}
-            {{ author.last -}}
-          </em>
+          <em>{{- author.first }}&nbsp;{{ author.last -}}</em>
         {%- else -%}
           {%- if coauthor_url -%}
-            <a href="{{coauthor_url}}">
-              {{- author.first }}
-              {{ author.last -}}
-            </a>
+            <a href="{{coauthor_url}}">{{- author.first }}&nbsp;{{ author.last -}}</a>
           {%- else -%}
-            {{- author.first }}
-            {{ author.last -}}
+            {{- author.first }}&nbsp;{{ author.last -}}
           {% endif %}
         {%- endif -%}
       {% endfor %}
@@ -196,6 +190,12 @@
       {% endif %}
       {% if entry.code %}
         <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+      {% endif %}
+      {% if entry.model %}
+        <a href="{{ entry.model }}" class="btn btn-sm z-depth-0" role="button">Model</a>
+      {% endif %}
+      {% if entry.data %}
+        <a href="{{ entry.data }}" class="btn btn-sm z-depth-0" role="button">Data</a>
       {% endif %}
       {% if entry.poster %}
         {% if entry.poster contains '://' %}
