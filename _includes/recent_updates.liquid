@@ -1,0 +1,29 @@
+{% comment %}
+  Recent updates from _data/news.yml (newest first). The first `include.visible` items are
+  shown; the rest stay hidden until the "Show more" toggle below the list is opened. The toggle
+  is a native <details> element and the reveal is pure CSS (see _sass/_base.scss), so no JavaScript.
+  Each item's `--i` staggers its fade-in, restarting at 0 for the items behind the toggle.
+{% endcomment %}
+{% assign updates = site.data.news %}
+{% assign visible = include.visible | default: 5 %}
+<div class="row">
+  <div class="col-sm-10">
+    <ul class="recent-updates">
+      {% for item in updates %}
+        {% if forloop.index0 < visible %}
+          {% assign stagger = forloop.index0 %}
+        {% else %}
+          {% assign stagger = forloop.index0 | minus: visible %}
+        {% endif %}
+        <li class="{% if forloop.index > visible %}extra{% endif %}" style="--i: {{ stagger }}">
+          <strong>[{{ item.date }}]</strong> {{ item.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}
+        </li>
+      {% endfor %}
+    </ul>
+    {% if updates.size > visible %}
+      <details class="recent-updates-more">
+        <summary><span class="show-more">Show more</span><span class="show-less">Show less</span></summary>
+      </details>
+    {% endif %}
+  </div>
+</div>

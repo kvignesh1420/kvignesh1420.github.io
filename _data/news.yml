@@ -1,0 +1,79 @@
+# Recent updates on the landing page, newest first. The newest few are shown and the
+# rest sit behind "Show more" (how many is set by `recent_updates` in _pages/about.md).
+# Quote `date` ("2026.10"); unquoted, YAML reads it as the number 2026.1.
+# `text` is Markdown. Keep entries emoji-free to match the site's plain style.
+
+- date: "2026.10"
+  text: >-
+    [Kumo Tabular](https://huggingface.co/nvidia/Kumo-Tabular) was featured by Jensen Huang
+    in his [NVIDIA GTC Berlin keynote](https://www.nvidia.com/en-eu/gtc/keynote/)!
+
+- date: "2026.10"
+  text: >-
+    Our work on large-scale pretraining of relational transformers,
+    [RT-J](https://star-project.stanford.edu/rt-j/), has been accepted to NeurIPS 2026!
+    The [preprint](https://arxiv.org/abs/2610.17867) is now on arXiv.
+
+- date: "2026.09"
+  text: >-
+    NVIDIA released [Kumo Tabular](https://huggingface.co/nvidia/Kumo-Tabular),
+    the tabular foundation model I worked on during my summer internship.
+    ([Blog](https://huggingface.co/blog/nvidia/kumo-tabular))
+
+- date: "2026.08"
+  text: >-
+    ["Memorilla: Latent Semantic Memory for LLMs"](https://openreview.net/forum?id=VV0vvzL783)
+    has been accepted to the Context Beyond the Window workshop at COLM 2026!
+
+- date: "2026.04"
+  text: >-
+    ["PluRel"](https://arxiv.org/abs/2602.04029) and
+    ["Balancing Learning Rates Across Layers"](https://arxiv.org/abs/2606.00340)
+    have been accepted to ICML 2026!
+
+- date: "2026.04"
+  text: >-
+    ["To Think or Not to Think"](https://arxiv.org/abs/2512.05318) has been accepted
+    to ACL Main 2026, and ["Distilling the Essence"](https://arxiv.org/abs/2512.21002)
+    to Findings of ACL 2026!
+
+- date: "2025.09"
+  text: >-
+    Started Ph.D. at Stanford!
+
+- date: "2025.09"
+  text: >-
+    Our work on distillation and compression of production-grade LLMs at LinkedIn
+    is accepted as an Oral presentation at EMNLP (Industry Track). We also open-sourced our
+    approaches in the ["fmchisel"](https://github.com/linkedin/fmchisel) library.
+
+- date: "2025.08"
+  text: >-
+    ["From Spikes to Heavy Tails: Unveiling the Spectral Evolution of Neural Networks"](https://openreview.net/forum?id=DJHB8eBUnt)
+    has been accepted to TMLR!
+
+- date: "2025.06"
+  text: >-
+    Our ["Liger Kernel"](https://arxiv.org/abs/2410.10989) paper has been accepted
+    to CODE ML Workshop, ICML 2025!
+
+- date: "2025.05"
+  text: >-
+    The ["CoT-ICL Lab"](https://arxiv.org/abs/2502.15132) paper has been accepted
+    to ACL Main 2025!
+
+- date: "2025.04"
+  text: >-
+    ["Can Kernel Methods Explain How the Data Affects Neural Collapse?"](https://openreview.net/forum?id=MbF1gYfIlY)
+    has been accepted to TMLR!
+
+- date: "2025.01"
+  text: >-
+    The [360Brew foundation model](https://arxiv.org/pdf/2501.16450v1) tech-report
+    is available on arxiv!
+
+- date: "2024.10"
+  text: >-
+    Our [tech-report](https://arxiv.org/abs/2410.10989) on
+    [Liger-Kernels](https://github.com/linkedin/Liger-Kernel) is now available on arxiv.
+    ([GPU Mode](https://www.youtube.com/watch?v=gWble4FreV4)/[Lightning&nbsp;AI](https://www.youtube.com/watch?v=3H_aw6o-d9c)/[AMD+Embedded LLM](https://embeddedllm.com/blog/cuda-to-rocm-portability-case-study-liger-kernel)/[Blog](https://www.linkedin.com/blog/engineering/open-source/liger-kernel-open-source-ecosystem-for-efficient-llm-training))

@@ -48,6 +48,12 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
+    <!-- Recent updates -->
+    {% if page.recent_updates and site.data.news %}
+      <h2>Recent Updates</h2>
+      {% include recent_updates.liquid visible=page.recent_updates %}
+    {% endif %}
+
     <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
       <h2>
