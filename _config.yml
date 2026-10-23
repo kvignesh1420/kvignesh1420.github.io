@@ -167,9 +167,10 @@ disqus_shortname: # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+# Left unset: the template's sample feed (medium.com/@al-folio) added a demo post to this site.
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@your-handle/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -229,10 +230,10 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
   - readme_preview/
+  - requirements.txt
   - vendor
 keep_files:
   - CNAME
