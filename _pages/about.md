@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: vk_prof_pic.jpeg
+  image: vk_prof_pic_headshot.jpg # 480px head-and-shoulders crop of IMG_3188 (Oct 2026), converted to sRGB, metadata stripped
   image_circular: true
   more_info:
 
