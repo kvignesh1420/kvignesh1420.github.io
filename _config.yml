@@ -635,4 +635,4 @@ jekyll_get_json:
 #   - references
 
 # ----------------------- CV
-cv_pdf: Vignesh_CV.pdf
+cv_pdf: # a PDF in assets/pdf/ (e.g. Vignesh_CV.pdf); adds a CV link to the social icons
