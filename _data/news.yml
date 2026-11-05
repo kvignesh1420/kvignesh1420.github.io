@@ -3,6 +3,11 @@
 # Quote `date` ("2026.10"); unquoted, YAML reads it as the number 2026.1.
 # `text` is Markdown. Keep entries emoji-free to match the site's plain style.
 
+- date: "2026.11"
+  text: >-
+    We launched [Memorilla](https://memory.stanford.edu/), latent semantic memory for LLMs!
+    ([Paper](https://openreview.net/forum?id=VV0vvzL783) / [Code](https://github.com/snap-stanford/memorilla) / [Hugging Face](https://huggingface.co/memorilla))
+
 - date: "2026.10"
   text: >-
     [Kumo Tabular](https://huggingface.co/nvidia/Kumo-Tabular) was featured by Jensen Huang
@@ -19,11 +24,6 @@
     NVIDIA released [Kumo Tabular](https://huggingface.co/nvidia/Kumo-Tabular),
     the tabular foundation model I worked on during my summer internship.
     ([Blog](https://huggingface.co/blog/nvidia/kumo-tabular))
-
-- date: "2026.08"
-  text: >-
-    ["Memorilla: Latent Semantic Memory for LLMs"](https://openreview.net/forum?id=VV0vvzL783)
-    has been accepted to the Context Beyond the Window workshop at COLM 2026!
 
 - date: "2026.04"
   text: >-
